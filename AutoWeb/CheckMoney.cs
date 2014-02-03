@@ -69,7 +69,6 @@ namespace AutoWeb
 
                 if (this.RetrieveDaily(webBrowser1.Document, dbUpdater))
                 {
-                    //this._completed = true;
                     if (!this.ClickNextTab(webBrowser1.Document))
                     {
                         webBrowser1.Navigate(URL_MIAO);
